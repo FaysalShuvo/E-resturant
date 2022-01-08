@@ -315,19 +315,17 @@
   background-color: #fae5d3;
   display: grid;
   grid-template-columns: 55fr 45fr;
-align-items: center;
+  align-items: center;
 }
 
 .testimonials-container {
   padding: 7rem;
-
 }
 .testimonials {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 4rem;
   column-gap: 6rem;
-  
 }
 
 .testimonial-img {
@@ -335,28 +333,104 @@ align-items: center;
   border-radius: 60%;
 }
 
-.testimonial-text{
+.testimonial-text {
   font-size: 1.5rem;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
-.testimonial-name{
+.testimonial-name {
   font-size: 1rem;
   color: #6f6f6f;
 }
 
-.gallery{
+.gallery {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
   padding: 1rem;
 }
 
-.gallery-item {overflow: hidden;}
-.gallery-item img{
-display: block;
-width: 100%;
-transition: all .3s;
+.gallery-item {
+  overflow: hidden;
 }
-.gallery-item img:hover{transform: scale(1.15);
+.gallery-item img {
+  display: block;
+  width: 100%;
+  transition: all 0.3s;
+}
+.gallery-item img:hover {
+  transform: scale(1.15);
+}
+
+/* ******************** */
+/* pricing */
+/* ******************** */
+.section-pricing {
+  padding: 9rem 0;
+}
+
+.pricing-plan {
+  border-radius: 10px;
+  width: 75%;
+}
+
+.pricing-plan--starter {
+  justify-self: end;
+  padding: 3.8rem;
+  border: 2px solid #fdf2e9;
+}
+.pricing-plan--complete {
+  padding: 4rem;
+  background-color: #fdf2e9;
+  position: relative;
+  overflow: hidden;
+}
+.pricing-plan--complete::after {
+  content: "Best value";
+  position: absolute;
+  top: 7%;
+  right: -12%;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+  background-color: #ffd43b;
+  padding: 0.8rem 5.5rem;
+  transform: rotate(45deg);
+}
+.plan-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.plan-name {
+  color: #cf711f;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.75;
+  margin-bottom: 2rem;
+}
+
+.plan-price {
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+.plan-price span {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-right: 0.5rem;
+}
+
+.plan-text {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #888;
+}
+
+.plan-sign-up {
+  text-align: center;
+  margin-top: 4rem;
 }
