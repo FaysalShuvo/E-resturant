@@ -35,6 +35,11 @@ default : 400
   box-sizing: border-box;
 }
 
+*:focus{
+  /* outline: none; */
+  outline: 4px dotted #e67e22;
+  outline-offset: 5px;
+}
 html {
   font-size: 65.5%;
 }
@@ -113,7 +118,7 @@ body {
   color: #e67e22;
   letter-spacing: 0.75px;
 }
-
+.btn,
 .btn:link,
 btn:visited {
   background-color: #e67e22;
@@ -125,6 +130,10 @@ btn:visited {
   border-radius: 10px;
   display: inline-block;
   transition: all 0.3s;
+
+  border: none;
+  cursor: pointer;
+  transition: all .3s;
 }
 
 .btn--full:link,

@@ -434,3 +434,118 @@
   text-align: center;
   margin-top: 4rem;
 }
+.plan-details {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.feature-icon {
+  color: #e67e22;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-bottom: 2rem;
+  background-color: #fdf2e9;
+  padding: 1rem;
+  border-radius: 50%;
+}
+.feature-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.feature-text {
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* ******************** */
+/* cta section*/
+/* ******************** */
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+}
+
+.cta-text-box {
+  padding: 4rem 5rem 5rem 5rem;
+  color: #2e1907;
+}
+
+.cta .heading-secondary {
+  color: #2e1907;
+  margin-bottom: 3rem;
+}
+
+.cta-text {
+  font-style: 1rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../img/eating.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+}
+.cta-form label {
+  display: block;
+  font-style: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  background-color: #ffd8b6;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  transition: all .3s;
+}
+.cta-form input::placeholder {
+  color: #aaa;
+}
+.cta-form input:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+.cta-form select {
+}
+.cta-form button {
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: flex-end;
+  padding: 1rem;
+}
+.btn--form:hover {
+  background-color: #fff;
+  color: #333;
+}

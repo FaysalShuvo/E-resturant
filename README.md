@@ -1,3 +1,3 @@
 # E-restaurant
 
-[liveLink](https://faysalshuvo.github.io/E-resturant/)
+[live Link](https://faysalshuvo.github.io/E-resturant/)
